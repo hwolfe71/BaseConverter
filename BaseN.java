@@ -48,7 +48,7 @@ public class BaseN {
             temp = digits[r] + temp;
             num /= base;
         }
-        return temp.toString();
+        return temp;
     } // end toBaseN()
 
 
